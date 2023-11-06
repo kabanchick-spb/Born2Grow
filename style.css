@@ -228,16 +228,19 @@ main {
   display: flex;
   flex-direction: column;
   padding: 20px 5%;
-  line-height: 9vh; /* Высота строки в зависимости от высоты экрана */
+  line-height: 9vh;
 }
 
 .center-body p {
   margin: 0;
+  
 }
 
 .heading {
   display: flex;
   flex-direction: column;
+  word-spacing: 9999999px;
+  text-transform: uppercase;
 }
 
 .question {

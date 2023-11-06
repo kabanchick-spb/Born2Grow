@@ -14,17 +14,17 @@ function hasSystemMenu() {
   }
 
   function setPaddingForSystemMenu() {
-    var systemMenuHeight = getHeightOfSystemMenu(); // Функция, чтобы получить высоту системного меню
+    var systemMenuHeight = getHeightOfSystemMenu(); 
   
-    var header = document.querySelector('header');
-    var footer = document.querySelector('footer');
+    var header = document.querySelector('.header');
+    var footer = document.querySelector('.footer');
   
     if (header) {
-      header.style.paddingTop = systemMenuHeight + 'px'; // Установка отступа сверху
+      header.style.paddingTop = systemMenuHeight + 'px';
     }
   
     if (footer) {
-      footer.style.paddingBottom = systemMenuHeight + 'px'; // Установка отступа снизу
+      footer.style.paddingBottom = systemMenuHeight + 'px';
     }
   }
   

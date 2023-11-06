@@ -215,7 +215,7 @@ main {
   display: flex;
   flex-direction: column;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 10vh; /* Размер шрифта в зависимости от высоты экрана */
+  font-size: 11vh; /* Размер шрифта в зависимости от высоты экрана */
   background-color: #1b2e59;
   color: aliceblue;
   height: 73dvh;

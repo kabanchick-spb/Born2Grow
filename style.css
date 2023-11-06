@@ -228,7 +228,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 20px 5%;
-  line-height: 9vh; /* Высота строки в зависимости от высоты экрана */
+  line-height: 10dvh; /* Высота строки в зависимости от высоты экрана */
 }
 
 .center-body p {
@@ -238,7 +238,6 @@ main {
 .heading {
   display: flex;
   flex-direction: column;
-  white-space: pre-line;
 }
 
 .question {

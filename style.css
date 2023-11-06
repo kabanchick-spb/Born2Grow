@@ -215,7 +215,7 @@ main {
   display: flex;
   flex-direction: column;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 9vh; /* Размер шрифта в зависимости от высоты экрана */
+  font-size: 9vh; 
   background-color: #1b2e59;
   color: aliceblue;
   height: 73dvh;
@@ -238,6 +238,7 @@ main {
 .heading {
   display: flex;
   flex-direction: column;
+  white-space: pre-line;
 }
 
 .question {

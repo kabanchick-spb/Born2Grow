@@ -1,14 +1,11 @@
-const isSystemMenuSupported = /Safari|Mobile Chrome/i.test(navigator.userAgent);
+var systemMenuHeight = window.innerHeight - document.documentElement.clientHeight;
 
-if (isSystemMenuSupported) {
-  const systemMenuHeight = 40;
+if (systemMenuHeight > 0) {
+    var isSystemMenuAtTop = systemMenuHeight > window.innerHeight / 2;
 
-  
-  function adjustForSystemMenu() {
-    document.body.style.paddingBottom = systemMenuHeight + 'px';
-  }
-
-  
-  window.addEventListener('load', adjustForSystemMenu);
-  window.addEventListener('resize', adjustForSystemMenu);
-}   
+    if (isSystemMenuAtTop) {
+        document.body.style.paddingTop = systemMenuHeight + "px";
+    } else {
+        document.body.style.paddingBottom = systemMenuHeight + "px";
+    }
+}

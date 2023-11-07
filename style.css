@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 85px;
+    font-size: 12vh;
     background-color: #1b2e59;
     color: aliceblue;
     height: 70vh;
